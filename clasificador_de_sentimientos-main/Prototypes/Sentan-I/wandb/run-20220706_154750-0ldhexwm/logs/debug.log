@@ -1,0 +1,207 @@
+2022-07-06 15:47:50,157 INFO    Thread-43 :12069 [wandb_setup.py:_flush():76] Configure stats pid to 12069
+2022-07-06 15:47:50,157 INFO    Thread-43 :12069 [wandb_setup.py:_flush():76] Loading settings from /home/b65580/.config/wandb/settings
+2022-07-06 15:47:50,157 INFO    Thread-43 :12069 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2022-07-06 15:47:50,157 INFO    Thread-43 :12069 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'panas', 'root_dir': '/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I', 'run_id': '0ldhexwm', 'sweep_param_path': '/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/sweep-6qfbb1nn/config-0ldhexwm.yaml', 'sweep_id': '6qfbb1nn'}
+2022-07-06 15:47:50,157 INFO    Thread-43 :12069 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-07-06 15:47:50,158 INFO    Thread-43 :12069 [wandb_init.py:_log_setup():461] Logging user logs to /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220706_154750-0ldhexwm/logs/debug.log
+2022-07-06 15:47:50,158 INFO    Thread-43 :12069 [wandb_init.py:_log_setup():462] Logging internal logs to /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220706_154750-0ldhexwm/logs/debug-internal.log
+2022-07-06 15:47:50,158 INFO    Thread-43 :12069 [wandb_init.py:_jupyter_setup():411] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f2e02c5bf70>
+2022-07-06 15:47:50,158 INFO    Thread-43 :12069 [wandb_init.py:init():495] calling init triggers
+2022-07-06 15:47:50,158 INFO    Thread-43 :12069 [wandb_init.py:init():498] wandb.init called with sweep_config: {'decay': 0.08752252253362104, 'epochs': 100, 'learning_rate': 0.08915186173086184, 'model': 'Sentan'}
+config: {}
+2022-07-06 15:47:50,159 INFO    Thread-43 :12069 [wandb_init.py:init():548] starting backend
+2022-07-06 15:47:50,159 INFO    Thread-43 :12069 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-07-06 15:47:50,167 INFO    Thread-43 :12069 [backend.py:ensure_launched():217] starting backend process...
+2022-07-06 15:47:50,201 INFO    Thread-43 :12069 [backend.py:ensure_launched():222] started backend process with pid: 12507
+2022-07-06 15:47:50,203 INFO    Thread-43 :12069 [wandb_init.py:init():558] backend started and connected
+2022-07-06 15:47:50,212 INFO    Thread-43 :12069 [wandb_run.py:_config_callback():1131] config_cb None None {'decay': 0.08752252253362104, 'epochs': 100, 'learning_rate': 0.08915186173086184, 'model': 'Sentan'}
+2022-07-06 15:47:50,217 INFO    Thread-43 :12069 [wandb_run.py:_label_probe_notebook():1084] probe notebook
+2022-07-06 15:47:50,218 INFO    Thread-43 :12069 [wandb_run.py:_label_probe_notebook():1094] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-07-06 15:47:50,218 INFO    Thread-43 :12069 [wandb_init.py:init():634] updated telemetry
+2022-07-06 15:47:50,299 INFO    Thread-43 :12069 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2022-07-06 15:47:52,053 INFO    Thread-43 :12069 [wandb_run.py:_on_init():1919] communicating current version
+2022-07-06 15:47:52,333 INFO    Thread-43 :12069 [wandb_run.py:_on_init():1923] got version response 
+2022-07-06 15:47:52,333 INFO    Thread-43 :12069 [wandb_init.py:init():700] starting run threads in backend
+2022-07-06 15:47:52,397 INFO    Thread-43 :12069 [wandb_run.py:_console_start():1893] atexit reg
+2022-07-06 15:47:52,398 INFO    Thread-43 :12069 [wandb_run.py:_redirect():1766] redirect: SettingsConsole.WRAP
+2022-07-06 15:47:52,398 INFO    Thread-43 :12069 [wandb_run.py:_redirect():1803] Wrapping output streams.
+2022-07-06 15:47:52,399 INFO    Thread-43 :12069 [wandb_run.py:_redirect():1827] Redirects installed.
+2022-07-06 15:47:52,400 INFO    Thread-43 :12069 [wandb_init.py:init():732] run started, returning control to user process
+2022-07-06 15:48:01,940 INFO    Thread-43 :12069 [wandb_run.py:_finish():1680] finishing run panas/uncategorized/0ldhexwm
+2022-07-06 15:48:01,941 ERROR   Thread-43 :12069 [jupyter.py:save_history():427] Run pip install nbformat to save notebook history
+2022-07-06 15:48:01,941 INFO    Thread-43 :12069 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-06 15:48:01,941 INFO    Thread-43 :12069 [wandb_init.py:_jupyter_teardown():393] cleaning up jupyter logic
+2022-07-06 15:48:01,941 INFO    Thread-43 :12069 [wandb_run.py:_atexit_cleanup():1862] got exitcode: 0
+2022-07-06 15:48:01,943 INFO    Thread-43 :12069 [wandb_run.py:_restore():1834] restore
+2022-07-06 15:48:02,918 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 815
+}
+
+2022-07-06 15:48:03,612 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 815
+}
+
+2022-07-06 15:48:04,079 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:04,181 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:04,284 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:04,386 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:04,488 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:04,591 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:04,707 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:04,809 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:04,912 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 815
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:05,014 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2745
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:05,116 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2745
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:05,218 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2745
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:05,320 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2745
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:05,423 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2745
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:05,525 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2745
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:05,627 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2745
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:05,969 INFO    Thread-43 :12069 [wandb_run.py:_on_finish():1991] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2745
+  total_bytes: 2745
+}
+
+2022-07-06 15:48:07,252 INFO    Thread-43 :12069 [wandb_run.py:_restore():1834] restore
+2022-07-06 15:48:08,421 ERROR   Thread-43 :12069 [wandb_run.py:_atexit_cleanup():1883] Problem finishing run
+Traceback (most recent call last):
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1871, in _atexit_cleanup
+    self._on_finish()
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/wandb_run.py", line 1989, in _on_finish
+    self._backend.interface.communicate_poll_exit()
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 653, in communicate_poll_exit
+    resp = self._communicate_poll_exit(poll_exit)
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 419, in _communicate_poll_exit
+    result = self._communicate(rec)
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+Exception

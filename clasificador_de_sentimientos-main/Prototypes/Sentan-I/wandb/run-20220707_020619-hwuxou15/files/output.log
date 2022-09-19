@@ -1,0 +1,2 @@
+
+{'Validation Accuracy': tensor(0.6181), 'F1 Score': tensor(0.6181), 'Recall': tensor(0.6043), 'Precision': tensor(0.6664)}

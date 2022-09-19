@@ -1,0 +1,129 @@
+2022-07-02 23:04:28,964 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/.config/wandb/settings
+2022-07-02 23:04:28,965 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/settings
+2022-07-02 23:04:28,965 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-02 23:04:28,965 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-07-02 23:04:28,965 INFO    MainThread:37474 [wandb_init.py:_log_setup():428] Logging user logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_230428-1nrr2wer/logs/debug.log
+2022-07-02 23:04:28,965 INFO    MainThread:37474 [wandb_init.py:_log_setup():429] Logging internal logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_230428-1nrr2wer/logs/debug-internal.log
+2022-07-02 23:04:28,965 INFO    MainThread:37474 [wandb_init.py:_jupyter_setup():378] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f85e37dfd60>
+2022-07-02 23:04:28,966 INFO    MainThread:37474 [wandb_init.py:init():462] calling init triggers
+2022-07-02 23:04:28,967 INFO    MainThread:37474 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-07-02 23:04:28,967 INFO    MainThread:37474 [wandb_init.py:init():515] starting backend
+2022-07-02 23:04:28,967 INFO    MainThread:37474 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-07-02 23:04:28,975 INFO    MainThread:37474 [backend.py:ensure_launched():217] starting backend process...
+2022-07-02 23:04:28,978 INFO    MainThread:37474 [backend.py:ensure_launched():222] started backend process with pid: 37514
+2022-07-02 23:04:28,979 INFO    MainThread:37474 [wandb_init.py:init():525] backend started and connected
+2022-07-02 23:04:28,982 INFO    MainThread:37474 [wandb_run.py:_label_probe_notebook():1089] probe notebook
+2022-07-02 23:04:28,983 INFO    MainThread:37474 [wandb_run.py:_label_probe_notebook():1099] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-07-02 23:04:28,984 INFO    MainThread:37474 [wandb_init.py:init():596] updated telemetry
+2022-07-02 23:04:28,998 INFO    MainThread:37474 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-07-02 23:04:31,579 INFO    MainThread:37474 [wandb_run.py:_on_init():1924] communicating current version
+2022-07-02 23:04:32,023 INFO    MainThread:37474 [wandb_run.py:_on_init():1928] got version response 
+2022-07-02 23:04:32,023 INFO    MainThread:37474 [wandb_init.py:init():662] starting run threads in backend
+2022-07-02 23:04:32,089 INFO    MainThread:37474 [wandb_run.py:_console_start():1898] atexit reg
+2022-07-02 23:04:32,090 INFO    MainThread:37474 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.WRAP
+2022-07-02 23:04:32,091 INFO    MainThread:37474 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2022-07-02 23:04:32,092 INFO    MainThread:37474 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-07-02 23:04:32,092 INFO    MainThread:37474 [wandb_init.py:init():688] run started, returning control to user process
+2022-07-02 23:04:32,098 INFO    MainThread:37474 [wandb_init.py:_pause_backend():341] pausing backend
+2022-07-02 23:04:32,100 INFO    MainThread:37474 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-02 23:04:32,236 INFO    MainThread:37474 [wandb_init.py:_resume_backend():350] resuming backend
+2022-07-02 23:04:32,240 INFO    MainThread:37474 [wandb_init.py:_pause_backend():341] pausing backend
+2022-07-02 23:04:32,243 INFO    MainThread:37474 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-02 23:04:32,367 INFO    MainThread:37474 [wandb_init.py:_resume_backend():350] resuming backend
+2022-07-02 23:04:32,974 INFO    MainThread:37474 [wandb_init.py:_pause_backend():341] pausing backend
+2022-07-02 23:04:32,974 INFO    MainThread:37474 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-02 23:04:33,044 INFO    MainThread:37474 [wandb_init.py:_resume_backend():350] resuming backend
+2022-07-02 23:04:33,049 INFO    MainThread:37474 [wandb_init.py:_pause_backend():341] pausing backend
+2022-07-02 23:04:33,049 INFO    MainThread:37474 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-02 23:05:14,549 INFO    MainThread:37474 [wandb_init.py:_resume_backend():350] resuming backend
+2022-07-02 23:05:14,552 INFO    MainThread:37474 [wandb_init.py:_pause_backend():341] pausing backend
+2022-07-02 23:05:14,553 INFO    MainThread:37474 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-02 23:05:14,630 INFO    MainThread:37474 [wandb_init.py:_resume_backend():350] resuming backend
+2022-07-02 23:05:14,650 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/.config/wandb/settings
+2022-07-02 23:05:14,651 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/settings
+2022-07-02 23:05:14,651 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-02 23:05:14,651 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-07-02 23:05:14,651 INFO    MainThread:37474 [wandb_init.py:_log_setup():428] Logging user logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_230514-1t761rje/logs/debug.log
+2022-07-02 23:05:14,651 INFO    MainThread:37474 [wandb_init.py:_log_setup():429] Logging internal logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_230514-1t761rje/logs/debug-internal.log
+2022-07-02 23:05:14,652 INFO    MainThread:37474 [wandb_init.py:init():462] calling init triggers
+2022-07-02 23:05:14,652 INFO    MainThread:37474 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-07-02 23:05:14,652 INFO    MainThread:37474 [wandb_init.py:init():481] re-initializing run, found existing run on stack: 1nrr2wer
+2022-07-02 23:05:14,655 INFO    MainThread:37474 [wandb_run.py:_finish():1685] finishing run solrak/Clasificador de sentimientos/1nrr2wer
+2022-07-02 23:05:14,656 ERROR   MainThread:37474 [jupyter.py:save_history():427] Run pip install nbformat to save notebook history
+2022-07-02 23:05:14,656 INFO    MainThread:37474 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-02 23:05:14,657 INFO    MainThread:37474 [wandb_init.py:_jupyter_teardown():360] cleaning up jupyter logic
+2022-07-02 23:05:14,657 INFO    MainThread:37474 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-07-02 23:05:14,659 INFO    MainThread:37474 [wandb_run.py:_restore():1839] restore
+2022-07-02 23:05:15,648 INFO    MainThread:37474 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 756
+}
+
+2022-07-02 23:05:20,749 INFO    MainThread:37474 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-07-02 23:05:20,849 INFO    MainThread:37474 [wandb_run.py:_restore():1839] restore
+2022-07-02 23:05:20,873 ERROR   MainThread:37474 [wandb_init.py:init():1026] error
+Traceback (most recent call last):
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1876, in _atexit_cleanup
+    self._on_finish()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1994, in _on_finish
+    self._backend.interface.communicate_poll_exit()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 653, in communicate_poll_exit
+    resp = self._communicate_poll_exit(poll_exit)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 419, in _communicate_poll_exit
+    result = self._communicate(rec)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 494, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1678, in finish
+    return self._finish(exit_code, quiet)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1691, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1887, in _atexit_cleanup
+    self._backend.cleanup()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/backend/backend.py", line 246, in cleanup
+    self.interface.join()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 475, in join
+    super().join()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 666, in join
+    _ = self._communicate_shutdown()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 472, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+2022-07-02 23:06:11,348 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/.config/wandb/settings
+2022-07-02 23:06:11,349 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/settings
+2022-07-02 23:06:11,349 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-02 23:06:11,349 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-07-02 23:06:11,349 INFO    MainThread:37474 [wandb_init.py:_log_setup():428] Logging user logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_230611-17fh9w6v/logs/debug.log
+2022-07-02 23:06:11,350 INFO    MainThread:37474 [wandb_init.py:_log_setup():429] Logging internal logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_230611-17fh9w6v/logs/debug-internal.log
+2022-07-02 23:06:11,350 INFO    MainThread:37474 [wandb_init.py:_jupyter_setup():378] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f852b9aadd0>
+2022-07-02 23:06:11,352 INFO    MainThread:37474 [wandb_init.py:init():462] calling init triggers
+2022-07-02 23:06:11,352 INFO    MainThread:37474 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-07-02 23:06:11,353 INFO    MainThread:37474 [wandb_init.py:init():481] re-initializing run, found existing run on stack: 1nrr2wer
+2022-07-02 23:06:11,357 INFO    MainThread:37474 [wandb_run.py:_finish():1685] finishing run solrak/Clasificador de sentimientos/1nrr2wer
+2022-07-02 23:06:11,358 ERROR   MainThread:37474 [jupyter.py:save_history():427] Run pip install nbformat to save notebook history
+2022-07-02 23:06:11,359 INFO    MainThread:37474 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-02 23:06:11,359 INFO    MainThread:37474 [wandb_init.py:_jupyter_teardown():360] cleaning up jupyter logic

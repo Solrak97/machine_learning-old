@@ -1,0 +1,77 @@
+2022-07-02 23:13:22,732 INFO    MainThread:39055 [internal.py:wandb_internal():90] W&B internal server running at pid: 39055, started at: 2022-07-02 23:13:22.731983
+2022-07-02 23:13:22,736 INFO    WriterThread:39055 [datastore.py:open_for_write():75] open: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/run-1iw0ycyh.wandb
+2022-07-02 23:13:22,738 DEBUG   SenderThread:39055 [sender.py:send():235] send: header
+2022-07-02 23:13:22,739 DEBUG   SenderThread:39055 [sender.py:send():235] send: run
+2022-07-02 23:13:23,105 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: check_version
+2022-07-02 23:13:23,125 INFO    SenderThread:39055 [dir_watcher.py:__init__():205] watching files in: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files
+2022-07-02 23:13:23,126 INFO    SenderThread:39055 [sender.py:_start_run_threads():812] run started: 1iw0ycyh with start time 1656825200
+2022-07-02 23:13:23,126 DEBUG   SenderThread:39055 [sender.py:send():235] send: summary
+2022-07-02 23:13:23,126 INFO    SenderThread:39055 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-02 23:13:23,127 DEBUG   SenderThread:39055 [sender.py:send_request():249] send_request: check_version
+2022-07-02 23:13:23,444 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: run_start
+2022-07-02 23:13:23,446 DEBUG   HandlerThread:39055 [meta.py:__init__():35] meta init
+2022-07-02 23:13:23,446 DEBUG   HandlerThread:39055 [meta.py:__init__():49] meta init done
+2022-07-02 23:13:23,446 DEBUG   HandlerThread:39055 [meta.py:probe():209] probe
+2022-07-02 23:13:23,449 DEBUG   HandlerThread:39055 [meta.py:_setup_git():199] setup git
+2022-07-02 23:13:23,470 DEBUG   HandlerThread:39055 [meta.py:_setup_git():206] setup git done
+2022-07-02 23:13:23,470 DEBUG   HandlerThread:39055 [meta.py:_save_pip():53] save pip
+2022-07-02 23:13:23,471 DEBUG   HandlerThread:39055 [meta.py:_save_pip():67] save pip done
+2022-07-02 23:13:23,472 DEBUG   HandlerThread:39055 [meta.py:probe():247] probe done
+2022-07-02 23:13:23,479 DEBUG   SenderThread:39055 [sender.py:send():235] send: files
+2022-07-02 23:13:23,480 INFO    SenderThread:39055 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-02 23:13:23,526 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-02 23:13:23,527 DEBUG   SenderThread:39055 [sender.py:send_request():249] send_request: stop_status
+2022-07-02 23:13:23,548 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: pause
+2022-07-02 23:13:23,548 INFO    HandlerThread:39055 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-02 23:13:23,730 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: resume
+2022-07-02 23:13:23,731 INFO    HandlerThread:39055 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-02 23:13:23,734 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: pause
+2022-07-02 23:13:23,735 INFO    HandlerThread:39055 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-02 23:13:23,828 DEBUG   SenderThread:39055 [sender.py:send():235] send: telemetry
+2022-07-02 23:13:23,829 DEBUG   SenderThread:39055 [sender.py:send():235] send: stats
+2022-07-02 23:13:23,847 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: resume
+2022-07-02 23:13:23,847 INFO    HandlerThread:39055 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-02 23:13:23,850 DEBUG   SenderThread:39055 [sender.py:send():235] send: stats
+2022-07-02 23:13:24,128 INFO    Thread-7  :39055 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/requirements.txt
+2022-07-02 23:13:24,129 INFO    Thread-7  :39055 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/output.log
+2022-07-02 23:13:24,132 INFO    Thread-7  :39055 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/wandb-summary.json
+2022-07-02 23:13:24,133 INFO    Thread-7  :39055 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/wandb-metadata.json
+2022-07-02 23:13:24,342 INFO    Thread-11 :39055 [upload_job.py:push():132] Uploaded file /tmp/tmpmgy4e_xtwandb/1a7ptajd-wandb-metadata.json
+2022-07-02 23:13:24,405 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: pause
+2022-07-02 23:13:24,405 INFO    HandlerThread:39055 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-02 23:13:24,457 DEBUG   SenderThread:39055 [sender.py:send():235] send: stats
+2022-07-02 23:13:24,487 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: resume
+2022-07-02 23:13:24,488 INFO    HandlerThread:39055 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-02 23:13:24,489 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: pause
+2022-07-02 23:13:24,490 INFO    HandlerThread:39055 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-02 23:13:24,494 DEBUG   SenderThread:39055 [sender.py:send():235] send: stats
+2022-07-02 23:13:24,605 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: resume
+2022-07-02 23:13:24,605 INFO    HandlerThread:39055 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-02 23:13:26,078 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: pause
+2022-07-02 23:13:26,078 INFO    HandlerThread:39055 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-02 23:13:26,112 DEBUG   SenderThread:39055 [sender.py:send():235] send: stats
+2022-07-02 23:13:26,126 INFO    Thread-7  :39055 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/output.log
+2022-07-02 23:13:38,830 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-02 23:13:38,831 DEBUG   SenderThread:39055 [sender.py:send_request():249] send_request: stop_status
+2022-07-02 23:13:54,138 INFO    Thread-7  :39055 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/config.yaml
+2022-07-02 23:13:54,164 DEBUG   HandlerThread:39055 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-02 23:13:54,165 DEBUG   SenderThread:39055 [sender.py:send_request():249] send_request: stop_status
+2022-07-02 23:13:55,765 WARNING MainThread:39055 [internal.py:is_dead():387] Internal process exiting, parent pid 38994 disappeared
+2022-07-02 23:13:55,766 ERROR   MainThread:39055 [internal.py:wandb_internal():149] Internal process shutdown.
+2022-07-02 23:13:56,118 INFO    WriterThread:39055 [datastore.py:close():279] close: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/run-1iw0ycyh.wandb
+2022-07-02 23:13:56,171 INFO    HandlerThread:39055 [handler.py:finish():806] shutting down handler
+2022-07-02 23:13:56,493 INFO    SenderThread:39055 [sender.py:finish():1111] shutting down sender
+2022-07-02 23:13:56,493 INFO    SenderThread:39055 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-07-02 23:13:57,139 INFO    SenderThread:39055 [dir_watcher.py:finish():366] scan: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files
+2022-07-02 23:13:57,140 INFO    SenderThread:39055 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/requirements.txt requirements.txt
+2022-07-02 23:13:57,140 INFO    SenderThread:39055 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/wandb-metadata.json wandb-metadata.json
+2022-07-02 23:13:57,140 INFO    SenderThread:39055 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/wandb-summary.json wandb-summary.json
+2022-07-02 23:13:57,149 INFO    SenderThread:39055 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/config.yaml config.yaml
+2022-07-02 23:13:57,157 INFO    SenderThread:39055 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/output.log output.log
+2022-07-02 23:13:57,164 INFO    SenderThread:39055 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-02 23:13:57,164 INFO    SenderThread:39055 [file_pusher.py:join():150] waiting for file pusher
+2022-07-02 23:13:58,022 INFO    Thread-16 :39055 [upload_job.py:push():132] Uploaded file /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/requirements.txt
+2022-07-02 23:13:58,095 INFO    Thread-18 :39055 [upload_job.py:push():132] Uploaded file /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/config.yaml
+2022-07-02 23:13:58,103 INFO    Thread-17 :39055 [upload_job.py:push():132] Uploaded file /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/wandb-summary.json
+2022-07-02 23:13:58,141 INFO    Thread-19 :39055 [upload_job.py:push():132] Uploaded file /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231320-1iw0ycyh/files/output.log
+2022-07-02 23:13:58,916 INFO    MainThread:39055 [internal.py:handle_exit():80] Internal process exited

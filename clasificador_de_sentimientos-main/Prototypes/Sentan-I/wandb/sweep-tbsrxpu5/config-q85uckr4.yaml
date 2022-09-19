@@ -1,0 +1,10 @@
+wandb_version: 1
+
+decay:
+  value: 0.004988493624076541
+epochs:
+  value: 700
+learning_rate:
+  value: 0.005308139290286987
+model:
+  value: Dias

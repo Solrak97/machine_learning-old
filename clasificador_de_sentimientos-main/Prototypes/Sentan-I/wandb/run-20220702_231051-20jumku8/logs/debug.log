@@ -1,0 +1,73 @@
+2022-07-02 23:10:51,123 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/.config/wandb/settings
+2022-07-02 23:10:51,125 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/settings
+2022-07-02 23:10:51,126 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-02 23:10:51,126 INFO    MainThread:37474 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-07-02 23:10:51,127 INFO    MainThread:37474 [wandb_init.py:_log_setup():428] Logging user logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231051-20jumku8/logs/debug.log
+2022-07-02 23:10:51,128 INFO    MainThread:37474 [wandb_init.py:_log_setup():429] Logging internal logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220702_231051-20jumku8/logs/debug-internal.log
+2022-07-02 23:10:51,129 INFO    MainThread:37474 [wandb_init.py:_jupyter_setup():378] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f8528bb9c60>
+2022-07-02 23:10:51,131 INFO    MainThread:37474 [wandb_init.py:init():462] calling init triggers
+2022-07-02 23:10:51,131 INFO    MainThread:37474 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-07-02 23:10:51,132 INFO    MainThread:37474 [wandb_init.py:init():481] re-initializing run, found existing run on stack: 212a2ohw
+2022-07-02 23:10:51,140 INFO    MainThread:37474 [wandb_run.py:_finish():1685] finishing run solrak/Clasificador de sentimientos/212a2ohw
+2022-07-02 23:10:51,142 ERROR   MainThread:37474 [jupyter.py:save_history():427] Run pip install nbformat to save notebook history
+2022-07-02 23:10:51,143 INFO    MainThread:37474 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-02 23:10:51,143 INFO    MainThread:37474 [wandb_init.py:_jupyter_teardown():360] cleaning up jupyter logic
+2022-07-02 23:10:51,143 INFO    MainThread:37474 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-07-02 23:10:51,146 INFO    MainThread:37474 [wandb_run.py:_restore():1839] restore
+2022-07-02 23:10:51,960 INFO    MainThread:37474 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 756
+}
+
+2022-07-02 23:10:57,061 INFO    MainThread:37474 [wandb_run.py:_on_finish():1996] got exit ret: None
+2022-07-02 23:10:57,162 INFO    MainThread:37474 [wandb_run.py:_restore():1839] restore
+2022-07-02 23:10:57,188 ERROR   MainThread:37474 [wandb_init.py:init():1026] error
+Traceback (most recent call last):
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1876, in _atexit_cleanup
+    self._on_finish()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1994, in _on_finish
+    self._backend.interface.communicate_poll_exit()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 653, in communicate_poll_exit
+    resp = self._communicate_poll_exit(poll_exit)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 419, in _communicate_poll_exit
+    result = self._communicate(rec)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 494, in init
+    self._wl._global_run_stack[-1].finish()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 256, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 222, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1678, in finish
+    return self._finish(exit_code, quiet)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1691, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1887, in _atexit_cleanup
+    self._backend.cleanup()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/backend/backend.py", line 246, in cleanup
+    self.interface.join()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 475, in join
+    super().join()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface.py", line 666, in join
+    _ = self._communicate_shutdown()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 472, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

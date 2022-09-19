@@ -1,0 +1,8 @@
+wandb_version: 1
+
+decay:
+  value: 0.0005006025637363794
+epochs:
+  value: 100
+learning_rate:
+  value: 0.05147350005726915

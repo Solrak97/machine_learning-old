@@ -1,0 +1,1 @@
+{"Validation Accuracy": 0.1944444477558136, "F1 Score": 0.1944444328546524, "Recall": 0.19946767389774323, "Precision": 0.32730138301849365, "epoch": 199, "_timestamp": 1657145484, "_runtime": 41, "_step": 199, "_wandb": {"runtime": 39}}

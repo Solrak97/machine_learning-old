@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.15.49-1-MANJARO-x86_64-with-glibc2.35",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-07-05T01:57:22.239473",
+    "startedAt": "2022-07-05T01:57:20.160134",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Solrak97/clasificador_de_sentimientos.git",
+        "commit": "50a90b94c2999d90419621adcb1be3291e45ddb4"
+    },
+    "email": "luiscarlosquesada@gmail.com",
+    "root": "/home/solrak/Documents/clasificador_de_sentimientos",
+    "host": "Ganimede",
+    "username": "solrak",
+    "executable": "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/bin/python"
+}

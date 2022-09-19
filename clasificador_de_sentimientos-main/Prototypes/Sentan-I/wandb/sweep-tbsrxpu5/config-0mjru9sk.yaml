@@ -1,0 +1,10 @@
+wandb_version: 1
+
+decay:
+  value: 0.07523486384197167
+epochs:
+  value: 700
+learning_rate:
+  value: 0.01928989833427976
+model:
+  value: Sentan

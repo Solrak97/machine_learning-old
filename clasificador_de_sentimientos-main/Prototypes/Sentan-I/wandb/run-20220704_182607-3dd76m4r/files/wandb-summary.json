@@ -1,0 +1,1 @@
+{"Train Accuracy": 0.3932291567325592, "Train Loss": 1.9483544826507568, "Validation Accuracy": 0.2916666567325592, "F1 Score": 0.2916666567325592, "Recall": 0.283268541097641, "Precision": 0.3121250867843628, "_timestamp": 1656980872, "_runtime": 100, "_step": 9, "_wandb": {"runtime": 99}}

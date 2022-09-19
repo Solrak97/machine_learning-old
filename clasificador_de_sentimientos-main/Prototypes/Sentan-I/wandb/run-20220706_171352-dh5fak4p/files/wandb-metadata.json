@@ -1,0 +1,23 @@
+{
+    "os": "Linux-5.13.0-51-generic-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-07-06T23:13:55.435876",
+    "startedAt": "2022-07-06T23:13:52.622121",
+    "docker": null,
+    "gpu": "NVIDIA GeForce GTX 1060 3GB",
+    "gpu_count": 1,
+    "cpu_count": 16,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Solrak97/clasificador_de_sentimientos.git",
+        "commit": "e6e0438f65a5214b70d9e47a5f1dd851b7d3849b"
+    },
+    "email": null,
+    "root": "/home/b65580/Documents/clasificador_de_sentimientos",
+    "host": "ECCI102L385804.ecci.ucr.ac.cr",
+    "username": "b65580",
+    "executable": "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/bin/python"
+}

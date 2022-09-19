@@ -1,0 +1,8 @@
+autopep8==1.6.0
+numpy==1.23.1
+Pillow==9.2.0
+pycodestyle==2.8.0
+pygame==2.1.2
+toml==0.10.2
+torch==1.12.0
+typing_extensions==4.3.0

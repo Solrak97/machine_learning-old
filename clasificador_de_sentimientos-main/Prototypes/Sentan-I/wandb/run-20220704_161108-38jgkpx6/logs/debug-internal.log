@@ -1,0 +1,348 @@
+2022-07-04 16:11:09,221 INFO    MainThread:5829 [internal.py:wandb_internal():90] W&B internal server running at pid: 5829, started at: 2022-07-04 16:11:09.221290
+2022-07-04 16:11:09,223 INFO    WriterThread:5829 [datastore.py:open_for_write():75] open: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/run-38jgkpx6.wandb
+2022-07-04 16:11:09,225 DEBUG   SenderThread:5829 [sender.py:send():235] send: header
+2022-07-04 16:11:09,225 DEBUG   SenderThread:5829 [sender.py:send():235] send: run
+2022-07-04 16:11:09,560 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: check_version
+2022-07-04 16:11:09,569 INFO    SenderThread:5829 [dir_watcher.py:__init__():205] watching files in: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files
+2022-07-04 16:11:09,570 INFO    SenderThread:5829 [sender.py:_start_run_threads():812] run started: 38jgkpx6 with start time 1656972668
+2022-07-04 16:11:09,570 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:09,570 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:09,571 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: check_version
+2022-07-04 16:11:09,872 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: run_start
+2022-07-04 16:11:09,873 DEBUG   HandlerThread:5829 [meta.py:__init__():35] meta init
+2022-07-04 16:11:09,873 DEBUG   HandlerThread:5829 [meta.py:__init__():49] meta init done
+2022-07-04 16:11:09,873 DEBUG   HandlerThread:5829 [meta.py:probe():209] probe
+2022-07-04 16:11:09,876 DEBUG   HandlerThread:5829 [meta.py:_setup_git():199] setup git
+2022-07-04 16:11:09,886 DEBUG   HandlerThread:5829 [meta.py:_setup_git():206] setup git done
+2022-07-04 16:11:09,886 DEBUG   HandlerThread:5829 [meta.py:_save_pip():53] save pip
+2022-07-04 16:11:09,886 DEBUG   HandlerThread:5829 [meta.py:_save_pip():67] save pip done
+2022-07-04 16:11:09,887 DEBUG   HandlerThread:5829 [meta.py:probe():247] probe done
+2022-07-04 16:11:09,893 DEBUG   SenderThread:5829 [sender.py:send():235] send: files
+2022-07-04 16:11:09,893 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-04 16:11:09,919 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:11:09,919 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:11:09,931 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: pause
+2022-07-04 16:11:09,931 INFO    HandlerThread:5829 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-04 16:11:10,046 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: resume
+2022-07-04 16:11:10,046 INFO    HandlerThread:5829 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-04 16:11:10,050 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: pause
+2022-07-04 16:11:10,050 INFO    HandlerThread:5829 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-04 16:11:10,150 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: resume
+2022-07-04 16:11:10,150 INFO    HandlerThread:5829 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-04 16:11:10,199 DEBUG   SenderThread:5829 [sender.py:send():235] send: telemetry
+2022-07-04 16:11:10,199 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:11:10,200 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:11:10,573 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:10,573 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-metadata.json
+2022-07-04 16:11:10,574 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/requirements.txt
+2022-07-04 16:11:10,574 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/output.log
+2022-07-04 16:11:10,649 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: pause
+2022-07-04 16:11:10,650 INFO    HandlerThread:5829 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-04 16:11:10,658 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:11:10,685 INFO    Thread-11 :5829 [upload_job.py:push():132] Uploaded file /tmp/tmpge6d_ko2wandb/2psf34b9-wandb-metadata.json
+2022-07-04 16:11:10,720 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: resume
+2022-07-04 16:11:10,720 INFO    HandlerThread:5829 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-04 16:11:10,721 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: pause
+2022-07-04 16:11:10,721 INFO    HandlerThread:5829 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-04 16:11:10,724 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:11:10,806 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: resume
+2022-07-04 16:11:10,806 INFO    HandlerThread:5829 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-04 16:11:16,708 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:16,711 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:16,711 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:16,713 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:17,351 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:17,352 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:17,353 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:17,354 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:17,575 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:22,985 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:22,986 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:22,986 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:22,994 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:23,578 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:23,609 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:23,611 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:23,611 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:23,613 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:24,578 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:25,257 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:11:25,257 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:11:28,696 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:28,697 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:28,698 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:28,703 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:29,206 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:29,207 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:29,209 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:29,210 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:29,581 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:33,892 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:33,893 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:33,894 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:33,899 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:34,406 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:34,408 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:34,408 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:34,410 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:34,583 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:38,804 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:38,806 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:38,807 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:38,812 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:38,914 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:11:39,331 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:39,332 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:39,587 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:39,714 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:39,718 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:40,522 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:11:40,522 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:11:40,587 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:40,587 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/config.yaml
+2022-07-04 16:11:45,686 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:45,687 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:45,688 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:45,693 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:46,127 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:46,128 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:46,129 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:46,130 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:46,591 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:52,641 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:52,642 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:52,643 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:52,648 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:53,141 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:53,142 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:53,143 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:53,144 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:11:53,598 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:11:55,808 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:11:55,811 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:11:59,869 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:11:59,870 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:11:59,871 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:11:59,877 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:00,605 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:01,673 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:01,677 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:01,679 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:01,683 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:02,609 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:09,050 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:12:10,494 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:10,496 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:10,497 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:10,497 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:10,622 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:10,949 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:10,950 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:10,951 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:10,952 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:11,284 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:12:11,285 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:12:11,623 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:19,413 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:19,415 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:19,416 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:19,420 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:19,633 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:19,911 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:19,912 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:19,912 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:19,914 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:20,633 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:24,780 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:24,781 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:24,782 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:24,783 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:25,319 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:25,320 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:25,321 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:25,321 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:25,637 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:26,563 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:12:26,564 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:12:31,067 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:31,069 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:31,070 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:31,075 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:31,513 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:31,514 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:31,514 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:31,515 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:31,643 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:38,611 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:38,612 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:38,613 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:38,615 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:38,650 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:39,177 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:12:39,222 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: partial_history
+2022-07-04 16:12:39,223 DEBUG   SenderThread:5829 [sender.py:send():235] send: history
+2022-07-04 16:12:39,224 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:12:39,225 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:12:39,650 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:12:41,919 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:12:41,920 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:12:48,622 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: pause
+2022-07-04 16:12:48,622 INFO    HandlerThread:5829 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-04 16:12:48,707 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:12:52,232 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: resume
+2022-07-04 16:12:52,233 INFO    HandlerThread:5829 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-04 16:12:52,255 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: pause
+2022-07-04 16:12:52,255 INFO    HandlerThread:5829 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-04 16:12:52,337 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:12:57,302 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:12:57,302 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:13:12,580 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:13:12,580 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:13:27,868 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:13:27,868 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:13:43,160 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:13:43,160 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:13:58,458 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:13:58,458 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:14:13,742 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:14:13,742 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:14:29,015 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:14:29,016 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:14:44,287 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:14:44,287 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:14:59,565 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:14:59,565 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:15:14,849 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:15:14,850 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:15:30,143 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:15:30,143 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:15:45,414 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:15:45,414 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:16:00,676 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:16:00,677 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:16:15,958 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:16:15,959 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:16:31,241 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:16:31,242 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:16:46,540 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:16:46,541 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:17:01,816 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:17:01,816 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:17:17,131 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:17:17,131 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:17:32,457 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:17:32,457 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:17:47,745 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:17:47,745 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:18:03,043 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:18:03,044 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:18:18,363 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:18:18,363 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:18:33,641 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:18:33,641 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:18:33,970 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: resume
+2022-07-04 16:18:33,970 INFO    HandlerThread:5829 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-04 16:18:33,974 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: pause
+2022-07-04 16:18:33,975 INFO    HandlerThread:5829 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-04 16:18:34,074 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:18:36,827 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/output.log
+2022-07-04 16:18:48,917 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-04 16:18:48,918 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: stop_status
+2022-07-04 16:18:49,939 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: resume
+2022-07-04 16:18:49,940 INFO    HandlerThread:5829 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-04 16:18:50,005 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: pause
+2022-07-04 16:18:50,005 INFO    HandlerThread:5829 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-04 16:18:50,044 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:18:50,102 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: resume
+2022-07-04 16:18:50,102 INFO    HandlerThread:5829 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-04 16:18:50,114 DEBUG   SenderThread:5829 [sender.py:send():235] send: telemetry
+2022-07-04 16:18:50,116 DEBUG   SenderThread:5829 [sender.py:send():235] send: telemetry
+2022-07-04 16:18:51,032 DEBUG   SenderThread:5829 [sender.py:send():235] send: exit
+2022-07-04 16:18:51,033 INFO    SenderThread:5829 [sender.py:send_exit():371] handling exit code: 0
+2022-07-04 16:18:51,033 INFO    SenderThread:5829 [sender.py:send_exit():373] handling runtime: 99
+2022-07-04 16:18:51,034 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:18:51,034 INFO    SenderThread:5829 [sender.py:send_exit():379] send defer
+2022-07-04 16:18:51,035 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 16:18:51,035 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: poll_exit
+2022-07-04 16:18:51,035 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 16:18:51,036 INFO    HandlerThread:5829 [handler.py:handle_request_defer():164] handle defer: 0
+2022-07-04 16:18:51,036 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: defer
+2022-07-04 16:18:51,036 INFO    SenderThread:5829 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-07-04 16:18:51,036 INFO    SenderThread:5829 [sender.py:transition_state():392] send defer: 1
+2022-07-04 16:18:51,037 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 16:18:51,037 INFO    HandlerThread:5829 [handler.py:handle_request_defer():164] handle defer: 1
+2022-07-04 16:18:51,107 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: defer
+2022-07-04 16:18:51,107 INFO    SenderThread:5829 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-07-04 16:18:51,107 INFO    SenderThread:5829 [sender.py:transition_state():392] send defer: 2
+2022-07-04 16:18:51,107 DEBUG   SenderThread:5829 [sender.py:send():235] send: stats
+2022-07-04 16:18:51,108 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 16:18:51,108 INFO    HandlerThread:5829 [handler.py:handle_request_defer():164] handle defer: 2
+2022-07-04 16:18:51,108 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: defer
+2022-07-04 16:18:51,108 INFO    SenderThread:5829 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-07-04 16:18:51,108 INFO    SenderThread:5829 [sender.py:transition_state():392] send defer: 3
+2022-07-04 16:18:51,109 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 16:18:51,109 INFO    HandlerThread:5829 [handler.py:handle_request_defer():164] handle defer: 3
+2022-07-04 16:18:51,109 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: defer
+2022-07-04 16:18:51,109 INFO    SenderThread:5829 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-07-04 16:18:51,109 INFO    SenderThread:5829 [sender.py:transition_state():392] send defer: 4
+2022-07-04 16:18:51,109 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 16:18:51,110 INFO    HandlerThread:5829 [handler.py:handle_request_defer():164] handle defer: 4
+2022-07-04 16:18:51,110 DEBUG   SenderThread:5829 [sender.py:send():235] send: summary
+2022-07-04 16:18:51,110 INFO    SenderThread:5829 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-04 16:18:51,111 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: defer
+2022-07-04 16:18:51,111 INFO    SenderThread:5829 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-07-04 16:18:51,111 INFO    SenderThread:5829 [sender.py:transition_state():392] send defer: 5
+2022-07-04 16:18:51,111 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: defer
+2022-07-04 16:18:51,111 INFO    HandlerThread:5829 [handler.py:handle_request_defer():164] handle defer: 5
+2022-07-04 16:18:51,111 DEBUG   SenderThread:5829 [sender.py:send_request():249] send_request: defer
+2022-07-04 16:18:51,111 INFO    SenderThread:5829 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-07-04 16:18:51,137 DEBUG   HandlerThread:5829 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-04 16:18:51,412 ERROR   SenderThread:5829 [internal_api.py:execute():143] 409 response executing GraphQL.
+2022-07-04 16:18:51,413 ERROR   SenderThread:5829 [internal_api.py:execute():144] {"errors":[{"message":"Error 1062: Duplicate entry '1097384-38jgkpx6' for key 'PRIMARY'","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2022-07-04 16:18:51,833 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/wandb-summary.json
+2022-07-04 16:18:51,833 INFO    Thread-7  :5829 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/files/output.log
+2022-07-04 16:18:52,110 INFO    WriterThread:5829 [datastore.py:close():279] close: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220704_161108-38jgkpx6/run-38jgkpx6.wandb
+2022-07-04 16:18:52,139 INFO    HandlerThread:5829 [handler.py:finish():806] shutting down handler
+2022-07-04 16:18:52,139 ERROR   MainThread:5829 [internal.py:wandb_internal():165] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/apis/normalize.py", line 22, in wrapper
+    return func(*args, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 1319, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 108, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 140, in execute
+    return self.client.execute(*args, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 39, in execute
+    request.raise_for_status()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/requests/models.py", line 1021, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 51, in run
+    self._run()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 102, in _run
+    self._process(record)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/internal.py", line 310, in _process
+    self._sm.send(record)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 237, in send
+    send_handler(record)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 251, in send_request
+    send_handler(record)
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 411, in send_request_defer
+    self.debounce()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 320, in debounce
+    self._debounce_config()
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 326, in _debounce_config
+    self._api.upsert_run(
+  File "/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.10/site-packages/wandb/apis/normalize.py", line 24, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.CommError: <Response [409]>
+2022-07-04 16:18:54,161 INFO    MainThread:5829 [internal.py:handle_exit():80] Internal process exited

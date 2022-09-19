@@ -1,0 +1,168 @@
+2022-07-06 18:41:23,815 INFO    MainThread:28886 [internal.py:wandb_internal():90] W&B internal server running at pid: 28886, started at: 2022-07-06 18:41:23.814812
+2022-07-06 18:41:23,817 INFO    WriterThread:28886 [datastore.py:open_for_write():75] open: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/run-dwvoyq5r.wandb
+2022-07-06 18:41:23,819 DEBUG   SenderThread:28886 [sender.py:send():236] send: header
+2022-07-06 18:41:23,819 DEBUG   SenderThread:28886 [sender.py:send():236] send: run
+2022-07-06 18:41:24,764 INFO    SenderThread:28886 [dir_watcher.py:__init__():216] watching files in: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files
+2022-07-06 18:41:24,764 INFO    SenderThread:28886 [sender.py:_start_run_threads():815] run started: dwvoyq5r with start time 1657154482
+2022-07-06 18:41:24,764 DEBUG   SenderThread:28886 [sender.py:send():236] send: summary
+2022-07-06 18:41:24,764 INFO    SenderThread:28886 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 18:41:24,766 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: check_version
+2022-07-06 18:41:24,767 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: check_version
+2022-07-06 18:41:25,543 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: run_start
+2022-07-06 18:41:25,556 DEBUG   HandlerThread:28886 [meta.py:__init__():35] meta init
+2022-07-06 18:41:25,557 DEBUG   HandlerThread:28886 [meta.py:__init__():49] meta init done
+2022-07-06 18:41:25,557 DEBUG   HandlerThread:28886 [meta.py:probe():209] probe
+2022-07-06 18:41:25,564 DEBUG   HandlerThread:28886 [meta.py:_setup_git():199] setup git
+2022-07-06 18:41:25,594 DEBUG   HandlerThread:28886 [meta.py:_setup_git():206] setup git done
+2022-07-06 18:41:25,595 DEBUG   HandlerThread:28886 [meta.py:_save_pip():53] save pip
+2022-07-06 18:41:25,595 DEBUG   HandlerThread:28886 [meta.py:_save_pip():67] save pip done
+2022-07-06 18:41:25,596 DEBUG   HandlerThread:28886 [meta.py:probe():247] probe done
+2022-07-06 18:41:25,603 DEBUG   SenderThread:28886 [sender.py:send():236] send: files
+2022-07-06 18:41:25,603 INFO    SenderThread:28886 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-07-06 18:41:25,616 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-06 18:41:25,617 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: stop_status
+2022-07-06 18:41:25,767 INFO    Thread-7  :28886 [dir_watcher.py:_on_file_created():269] file/dir created: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/output.log
+2022-07-06 18:41:25,768 INFO    Thread-7  :28886 [dir_watcher.py:_on_file_created():269] file/dir created: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/requirements.txt
+2022-07-06 18:41:25,768 INFO    Thread-7  :28886 [dir_watcher.py:_on_file_created():269] file/dir created: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/wandb-summary.json
+2022-07-06 18:41:25,768 INFO    Thread-7  :28886 [dir_watcher.py:_on_file_created():269] file/dir created: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/wandb-metadata.json
+2022-07-06 18:41:26,121 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:26,494 DEBUG   SenderThread:28886 [sender.py:send():236] send: telemetry
+2022-07-06 18:41:26,495 DEBUG   SenderThread:28886 [sender.py:send():236] send: telemetry
+2022-07-06 18:41:26,495 DEBUG   SenderThread:28886 [sender.py:send():236] send: telemetry
+2022-07-06 18:41:26,495 DEBUG   SenderThread:28886 [sender.py:send():236] send: exit
+2022-07-06 18:41:26,495 INFO    SenderThread:28886 [sender.py:send_exit():372] handling exit code: 1
+2022-07-06 18:41:26,495 INFO    SenderThread:28886 [sender.py:send_exit():374] handling runtime: 0
+2022-07-06 18:41:26,496 INFO    SenderThread:28886 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 18:41:26,496 INFO    SenderThread:28886 [sender.py:send_exit():380] send defer
+2022-07-06 18:41:26,496 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:26,497 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:26,497 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 0
+2022-07-06 18:41:26,497 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:26,498 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 0
+2022-07-06 18:41:26,498 INFO    SenderThread:28886 [sender.py:transition_state():393] send defer: 1
+2022-07-06 18:41:26,498 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:26,498 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 1
+2022-07-06 18:41:26,547 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:26,547 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 1
+2022-07-06 18:41:26,547 INFO    SenderThread:28886 [sender.py:transition_state():393] send defer: 2
+2022-07-06 18:41:26,548 DEBUG   SenderThread:28886 [sender.py:send():236] send: stats
+2022-07-06 18:41:26,548 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:26,549 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 2
+2022-07-06 18:41:26,549 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:26,549 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 2
+2022-07-06 18:41:26,549 INFO    SenderThread:28886 [sender.py:transition_state():393] send defer: 3
+2022-07-06 18:41:26,549 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:26,550 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 3
+2022-07-06 18:41:26,550 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:26,550 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 3
+2022-07-06 18:41:26,550 INFO    SenderThread:28886 [sender.py:transition_state():393] send defer: 4
+2022-07-06 18:41:26,550 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:26,551 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 4
+2022-07-06 18:41:26,551 DEBUG   SenderThread:28886 [sender.py:send():236] send: summary
+2022-07-06 18:41:26,551 INFO    SenderThread:28886 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-06 18:41:26,552 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:26,552 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 4
+2022-07-06 18:41:26,552 INFO    SenderThread:28886 [sender.py:transition_state():393] send defer: 5
+2022-07-06 18:41:26,552 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:26,552 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 5
+2022-07-06 18:41:26,553 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:26,553 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 5
+2022-07-06 18:41:26,598 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:26,765 INFO    Thread-7  :28886 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/wandb-summary.json
+2022-07-06 18:41:27,462 INFO    SenderThread:28886 [sender.py:transition_state():393] send defer: 6
+2022-07-06 18:41:27,462 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:27,463 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:27,463 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 6
+2022-07-06 18:41:27,463 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:27,463 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 6
+2022-07-06 18:41:27,463 INFO    SenderThread:28886 [dir_watcher.py:finish():353] shutting down directory watcher
+2022-07-06 18:41:27,513 INFO    Thread-11 :28886 [upload_job.py:push():138] Uploaded file /tmp/tmpusb2eb5rwandb/henftrlf-wandb-metadata.json
+2022-07-06 18:41:27,564 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:27,765 INFO    Thread-7  :28886 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/config.yaml
+2022-07-06 18:41:27,766 INFO    SenderThread:28886 [dir_watcher.py:finish():383] scan: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files
+2022-07-06 18:41:27,766 INFO    SenderThread:28886 [dir_watcher.py:finish():397] scan save: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/requirements.txt requirements.txt
+2022-07-06 18:41:27,766 INFO    SenderThread:28886 [dir_watcher.py:finish():397] scan save: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/config.yaml config.yaml
+2022-07-06 18:41:27,771 INFO    SenderThread:28886 [dir_watcher.py:finish():397] scan save: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/wandb-metadata.json wandb-metadata.json
+2022-07-06 18:41:27,771 INFO    SenderThread:28886 [dir_watcher.py:finish():397] scan save: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/wandb-summary.json wandb-summary.json
+2022-07-06 18:41:27,776 INFO    SenderThread:28886 [dir_watcher.py:finish():397] scan save: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/output.log output.log
+2022-07-06 18:41:27,782 INFO    SenderThread:28886 [sender.py:transition_state():393] send defer: 7
+2022-07-06 18:41:27,782 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:27,783 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:27,783 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 7
+2022-07-06 18:41:27,783 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:27,783 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 7
+2022-07-06 18:41:27,784 INFO    SenderThread:28886 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-06 18:41:27,885 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:27,885 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:27,987 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:27,987 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:28,089 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:28,090 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:28,192 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:28,192 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:28,294 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:28,295 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:28,397 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:28,397 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:28,499 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:28,500 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:28,601 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:28,602 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:28,703 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:28,704 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:28,805 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:28,806 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:28,908 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:28,908 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,010 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:29,010 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,112 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:29,112 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,214 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:29,215 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,316 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:29,317 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,419 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:29,419 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,521 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:29,522 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,589 INFO    Thread-14 :28886 [upload_job.py:push():138] Uploaded file /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/wandb-summary.json
+2022-07-06 18:41:29,623 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:29,624 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,647 INFO    Thread-13 :28886 [upload_job.py:push():138] Uploaded file /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/config.yaml
+2022-07-06 18:41:29,659 INFO    Thread-12 :28886 [upload_job.py:push():138] Uploaded file /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/files/requirements.txt
+2022-07-06 18:41:29,725 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:29,726 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,828 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:29,828 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:29,860 INFO    Thread-6  :28886 [sender.py:transition_state():393] send defer: 8
+2022-07-06 18:41:29,860 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:29,860 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 8
+2022-07-06 18:41:29,861 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:29,861 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 8
+2022-07-06 18:41:29,930 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:30,266 INFO    SenderThread:28886 [sender.py:transition_state():393] send defer: 9
+2022-07-06 18:41:30,266 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:30,267 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:30,267 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 9
+2022-07-06 18:41:30,268 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:30,268 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 9
+2022-07-06 18:41:30,268 INFO    SenderThread:28886 [sender.py:transition_state():393] send defer: 10
+2022-07-06 18:41:30,269 DEBUG   SenderThread:28886 [sender.py:send():236] send: final
+2022-07-06 18:41:30,269 DEBUG   SenderThread:28886 [sender.py:send():236] send: footer
+2022-07-06 18:41:30,269 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: defer
+2022-07-06 18:41:30,270 INFO    HandlerThread:28886 [handler.py:handle_request_defer():163] handle defer: 10
+2022-07-06 18:41:30,270 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: defer
+2022-07-06 18:41:30,270 INFO    SenderThread:28886 [sender.py:send_request_defer():389] handle sender defer: 10
+2022-07-06 18:41:30,368 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: poll_exit
+2022-07-06 18:41:30,369 DEBUG   SenderThread:28886 [sender.py:send_request():250] send_request: poll_exit
+2022-07-06 18:41:30,369 INFO    SenderThread:28886 [file_pusher.py:join():176] waiting for file pusher
+2022-07-06 18:41:33,736 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: sampled_history
+2022-07-06 18:41:33,737 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: get_summary
+2022-07-06 18:41:33,738 DEBUG   HandlerThread:28886 [handler.py:handle_request():140] handle_request: shutdown
+2022-07-06 18:41:33,738 INFO    HandlerThread:28886 [handler.py:finish():806] shutting down handler
+2022-07-06 18:41:34,270 INFO    WriterThread:28886 [datastore.py:close():279] close: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184122-dwvoyq5r/run-dwvoyq5r.wandb
+2022-07-06 18:41:34,634 INFO    SenderThread:28886 [sender.py:finish():1114] shutting down sender
+2022-07-06 18:41:34,634 INFO    SenderThread:28886 [file_pusher.py:finish():171] shutting down file pusher
+2022-07-06 18:41:34,635 INFO    SenderThread:28886 [file_pusher.py:join():176] waiting for file pusher
+2022-07-06 18:41:34,638 INFO    MainThread:28886 [internal.py:handle_exit():80] Internal process exited

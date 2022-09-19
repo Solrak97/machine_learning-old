@@ -1,0 +1,147 @@
+2022-07-07 02:08:47,801 INFO    MainThread:10176 [internal.py:wandb_internal():90] W&B internal server running at pid: 10176, started at: 2022-07-07 02:08:47.801460
+2022-07-07 02:08:47,804 INFO    WriterThread:10176 [datastore.py:open_for_write():75] open: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/run-3f8mykfm.wandb
+2022-07-07 02:08:47,808 DEBUG   SenderThread:10176 [sender.py:send():235] send: header
+2022-07-07 02:08:47,808 DEBUG   SenderThread:10176 [sender.py:send():235] send: run
+2022-07-07 02:08:48,195 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: check_version
+2022-07-07 02:08:48,196 INFO    SenderThread:10176 [dir_watcher.py:__init__():205] watching files in: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files
+2022-07-07 02:08:48,196 INFO    SenderThread:10176 [sender.py:_start_run_threads():812] run started: 3f8mykfm with start time 1657181326
+2022-07-07 02:08:48,197 DEBUG   SenderThread:10176 [sender.py:send():235] send: summary
+2022-07-07 02:08:48,197 INFO    SenderThread:10176 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-07 02:08:48,197 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: check_version
+2022-07-07 02:08:48,520 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: run_start
+2022-07-07 02:08:48,521 DEBUG   HandlerThread:10176 [meta.py:__init__():35] meta init
+2022-07-07 02:08:48,522 DEBUG   HandlerThread:10176 [meta.py:__init__():49] meta init done
+2022-07-07 02:08:48,522 DEBUG   HandlerThread:10176 [meta.py:probe():209] probe
+2022-07-07 02:08:48,523 DEBUG   HandlerThread:10176 [meta.py:_setup_git():199] setup git
+2022-07-07 02:08:48,530 DEBUG   HandlerThread:10176 [meta.py:_setup_git():206] setup git done
+2022-07-07 02:08:48,530 DEBUG   HandlerThread:10176 [meta.py:_save_pip():53] save pip
+2022-07-07 02:08:48,531 DEBUG   HandlerThread:10176 [meta.py:_save_pip():67] save pip done
+2022-07-07 02:08:48,531 DEBUG   HandlerThread:10176 [meta.py:probe():247] probe done
+2022-07-07 02:08:48,534 DEBUG   SenderThread:10176 [sender.py:send():235] send: files
+2022-07-07 02:08:48,534 INFO    SenderThread:10176 [sender.py:_save_file():949] saving file wandb-metadata.json with policy now
+2022-07-07 02:08:48,549 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: stop_status
+2022-07-07 02:08:48,549 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: stop_status
+2022-07-07 02:08:48,835 DEBUG   SenderThread:10176 [sender.py:send():235] send: telemetry
+2022-07-07 02:08:48,835 DEBUG   SenderThread:10176 [sender.py:send():235] send: telemetry
+2022-07-07 02:08:48,835 DEBUG   SenderThread:10176 [sender.py:send():235] send: telemetry
+2022-07-07 02:08:49,051 DEBUG   SenderThread:10176 [sender.py:send():235] send: exit
+2022-07-07 02:08:49,051 INFO    SenderThread:10176 [sender.py:send_exit():371] handling exit code: 0
+2022-07-07 02:08:49,052 INFO    SenderThread:10176 [sender.py:send_exit():373] handling runtime: 0
+2022-07-07 02:08:49,053 INFO    SenderThread:10176 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-07 02:08:49,053 INFO    SenderThread:10176 [sender.py:send_exit():379] send defer
+2022-07-07 02:08:49,054 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:49,054 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:49,054 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:49,055 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 0
+2022-07-07 02:08:49,055 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:49,055 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 0
+2022-07-07 02:08:49,055 INFO    SenderThread:10176 [sender.py:transition_state():392] send defer: 1
+2022-07-07 02:08:49,056 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:49,056 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 1
+2022-07-07 02:08:49,130 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:49,131 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 1
+2022-07-07 02:08:49,131 INFO    SenderThread:10176 [sender.py:transition_state():392] send defer: 2
+2022-07-07 02:08:49,131 DEBUG   SenderThread:10176 [sender.py:send():235] send: stats
+2022-07-07 02:08:49,132 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:49,132 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 2
+2022-07-07 02:08:49,132 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:49,132 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 2
+2022-07-07 02:08:49,132 INFO    SenderThread:10176 [sender.py:transition_state():392] send defer: 3
+2022-07-07 02:08:49,133 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:49,133 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 3
+2022-07-07 02:08:49,133 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:49,133 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 3
+2022-07-07 02:08:49,133 INFO    SenderThread:10176 [sender.py:transition_state():392] send defer: 4
+2022-07-07 02:08:49,134 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:49,134 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 4
+2022-07-07 02:08:49,134 DEBUG   SenderThread:10176 [sender.py:send():235] send: summary
+2022-07-07 02:08:49,135 INFO    SenderThread:10176 [sender.py:_save_file():949] saving file wandb-summary.json with policy end
+2022-07-07 02:08:49,135 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:49,136 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 4
+2022-07-07 02:08:49,136 INFO    SenderThread:10176 [sender.py:transition_state():392] send defer: 5
+2022-07-07 02:08:49,136 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:49,137 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 5
+2022-07-07 02:08:49,137 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:49,137 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 5
+2022-07-07 02:08:49,156 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:49,199 INFO    Thread-7  :10176 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/wandb-metadata.json
+2022-07-07 02:08:49,200 INFO    Thread-7  :10176 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/output.log
+2022-07-07 02:08:49,200 INFO    Thread-7  :10176 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/wandb-summary.json
+2022-07-07 02:08:49,200 INFO    Thread-7  :10176 [dir_watcher.py:_on_file_created():256] file/dir created: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/requirements.txt
+2022-07-07 02:08:49,384 INFO    Thread-11 :10176 [upload_job.py:push():132] Uploaded file /tmp/tmpcff_w9ttwandb/33v09z63-wandb-metadata.json
+2022-07-07 02:08:49,531 INFO    SenderThread:10176 [sender.py:transition_state():392] send defer: 6
+2022-07-07 02:08:49,531 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:49,532 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:49,532 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 6
+2022-07-07 02:08:49,532 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:49,532 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 6
+2022-07-07 02:08:49,532 INFO    SenderThread:10176 [dir_watcher.py:finish():336] shutting down directory watcher
+2022-07-07 02:08:49,633 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:50,197 INFO    Thread-7  :10176 [dir_watcher.py:_on_file_modified():269] file/dir modified: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/config.yaml
+2022-07-07 02:08:50,198 INFO    SenderThread:10176 [dir_watcher.py:finish():366] scan: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files
+2022-07-07 02:08:50,198 INFO    SenderThread:10176 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/requirements.txt requirements.txt
+2022-07-07 02:08:50,198 INFO    SenderThread:10176 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/wandb-metadata.json wandb-metadata.json
+2022-07-07 02:08:50,198 INFO    SenderThread:10176 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/wandb-summary.json wandb-summary.json
+2022-07-07 02:08:50,202 INFO    SenderThread:10176 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/config.yaml config.yaml
+2022-07-07 02:08:50,209 INFO    SenderThread:10176 [dir_watcher.py:finish():380] scan save: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/output.log output.log
+2022-07-07 02:08:50,215 INFO    SenderThread:10176 [sender.py:transition_state():392] send defer: 7
+2022-07-07 02:08:50,216 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:50,216 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:50,216 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 7
+2022-07-07 02:08:50,217 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:50,217 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 7
+2022-07-07 02:08:50,217 INFO    SenderThread:10176 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-07 02:08:50,318 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:50,318 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:50,420 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:50,421 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:50,523 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:50,524 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:50,626 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:50,627 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:50,728 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:50,728 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:50,830 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:50,830 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:50,932 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:50,932 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:51,034 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:51,034 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:51,057 INFO    Thread-13 :10176 [upload_job.py:push():132] Uploaded file /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/wandb-summary.json
+2022-07-07 02:08:51,060 INFO    Thread-14 :10176 [upload_job.py:push():132] Uploaded file /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/config.yaml
+2022-07-07 02:08:51,060 INFO    Thread-12 :10176 [upload_job.py:push():132] Uploaded file /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/files/requirements.txt
+2022-07-07 02:08:51,136 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:51,137 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:51,239 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:51,239 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:51,264 INFO    Thread-6 (_thread_body):10176 [sender.py:transition_state():392] send defer: 8
+2022-07-07 02:08:51,265 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:51,265 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 8
+2022-07-07 02:08:51,265 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:51,266 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 8
+2022-07-07 02:08:51,341 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:51,708 INFO    SenderThread:10176 [sender.py:transition_state():392] send defer: 9
+2022-07-07 02:08:51,709 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:51,709 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:51,709 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 9
+2022-07-07 02:08:51,709 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:51,710 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 9
+2022-07-07 02:08:51,710 INFO    SenderThread:10176 [sender.py:transition_state():392] send defer: 10
+2022-07-07 02:08:51,710 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: defer
+2022-07-07 02:08:51,710 DEBUG   SenderThread:10176 [sender.py:send():235] send: final
+2022-07-07 02:08:51,710 INFO    HandlerThread:10176 [handler.py:handle_request_defer():164] handle defer: 10
+2022-07-07 02:08:51,711 DEBUG   SenderThread:10176 [sender.py:send():235] send: footer
+2022-07-07 02:08:51,711 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: defer
+2022-07-07 02:08:51,711 INFO    SenderThread:10176 [sender.py:send_request_defer():388] handle sender defer: 10
+2022-07-07 02:08:51,810 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: poll_exit
+2022-07-07 02:08:51,811 DEBUG   SenderThread:10176 [sender.py:send_request():249] send_request: poll_exit
+2022-07-07 02:08:51,811 INFO    SenderThread:10176 [file_pusher.py:join():150] waiting for file pusher
+2022-07-07 02:08:52,652 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: sampled_history
+2022-07-07 02:08:52,654 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: get_summary
+2022-07-07 02:08:52,655 DEBUG   HandlerThread:10176 [handler.py:handle_request():141] handle_request: shutdown
+2022-07-07 02:08:52,655 INFO    HandlerThread:10176 [handler.py:finish():806] shutting down handler
+2022-07-07 02:08:52,710 INFO    WriterThread:10176 [datastore.py:close():279] close: /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_020846-3f8mykfm/run-3f8mykfm.wandb
+2022-07-07 02:08:53,550 INFO    SenderThread:10176 [sender.py:finish():1111] shutting down sender
+2022-07-07 02:08:53,550 INFO    SenderThread:10176 [file_pusher.py:finish():145] shutting down file pusher
+2022-07-07 02:08:53,551 INFO    SenderThread:10176 [file_pusher.py:join():150] waiting for file pusher
+2022-07-07 02:08:53,554 INFO    MainThread:10176 [internal.py:handle_exit():80] Internal process exited

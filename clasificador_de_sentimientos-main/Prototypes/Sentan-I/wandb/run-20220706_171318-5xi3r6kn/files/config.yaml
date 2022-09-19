@@ -1,0 +1,41 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.10
+    start_time: 1657149198
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 2
+      4: 3.8.10
+      5: 0.12.21
+      8:
+      - 1
+      - 5
+decay:
+  desc: null
+  value: 0.0029145209228182488
+epochs:
+  desc: null
+  value: 100
+learning_rate:
+  desc: null
+  value: 0.057734252335149894
+model:
+  desc: null
+  value: Dias

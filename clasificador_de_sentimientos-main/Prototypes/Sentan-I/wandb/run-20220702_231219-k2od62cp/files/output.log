@@ -1,0 +1,1 @@
+/home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/Src/pre_processing.py:39: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).

@@ -1,0 +1,22 @@
+img {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+* {
+  box-sizing: border-box;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}

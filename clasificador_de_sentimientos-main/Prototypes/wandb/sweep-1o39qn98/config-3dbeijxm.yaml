@@ -1,0 +1,6 @@
+wandb_version: 1
+
+model:
+  value: Tree
+n_estimators:
+  value: 600

@@ -1,0 +1,40 @@
+2022-07-06 18:43:39,443 INFO    Thread-52 :28611 [wandb_setup.py:_flush():76] Configure stats pid to 28611
+2022-07-06 18:43:39,443 INFO    Thread-52 :28611 [wandb_setup.py:_flush():76] Loading settings from /home/b65580/.config/wandb/settings
+2022-07-06 18:43:39,443 INFO    Thread-52 :28611 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2022-07-06 18:43:39,443 INFO    Thread-52 :28611 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'uncategorized', 'entity': 'panas', 'root_dir': '/home/b65580/Documents/clasificador_de_sentimientos/Prototypes', 'run_id': 'h80m1s4y', 'sweep_param_path': '/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/sweep-cn0a0asy/config-h80m1s4y.yaml', 'sweep_id': 'cn0a0asy'}
+2022-07-06 18:43:39,443 INFO    Thread-52 :28611 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-07-06 18:43:39,443 INFO    Thread-52 :28611 [wandb_init.py:_log_setup():461] Logging user logs to /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184339-h80m1s4y/logs/debug.log
+2022-07-06 18:43:39,443 INFO    Thread-52 :28611 [wandb_init.py:_log_setup():462] Logging internal logs to /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184339-h80m1s4y/logs/debug-internal.log
+2022-07-06 18:43:39,443 INFO    Thread-52 :28611 [wandb_init.py:_jupyter_setup():411] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f75cb537640>
+2022-07-06 18:43:39,444 INFO    Thread-52 :28611 [wandb_init.py:init():495] calling init triggers
+2022-07-06 18:43:39,444 INFO    Thread-52 :28611 [wandb_init.py:init():498] wandb.init called with sweep_config: {'model': 'Tree', 'n_estimators': 600}
+config: {}
+2022-07-06 18:43:39,444 INFO    Thread-52 :28611 [wandb_init.py:init():548] starting backend
+2022-07-06 18:43:39,444 INFO    Thread-52 :28611 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-07-06 18:43:39,451 INFO    Thread-52 :28611 [backend.py:ensure_launched():217] starting backend process...
+2022-07-06 18:43:39,460 INFO    Thread-52 :28611 [backend.py:ensure_launched():222] started backend process with pid: 29221
+2022-07-06 18:43:39,462 INFO    Thread-52 :28611 [wandb_init.py:init():558] backend started and connected
+2022-07-06 18:43:39,470 INFO    Thread-52 :28611 [wandb_run.py:_config_callback():1131] config_cb None None {'model': 'Tree', 'n_estimators': 600}
+2022-07-06 18:43:39,473 INFO    Thread-52 :28611 [wandb_run.py:_label_probe_notebook():1084] probe notebook
+2022-07-06 18:43:39,473 INFO    Thread-52 :28611 [wandb_run.py:_label_probe_notebook():1094] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-07-06 18:43:39,473 INFO    Thread-52 :28611 [wandb_init.py:init():634] updated telemetry
+2022-07-06 18:43:39,496 INFO    Thread-52 :28611 [wandb_init.py:init():665] communicating run to backend with 30 second timeout
+2022-07-06 18:43:41,450 ERROR   Thread-52 :28611 [wandb_init.py:init():1070] error
+Traceback (most recent call last):
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1043, in init
+    run = wi.init()
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 668, in init
+    run_result = backend.interface.communicate_run(
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/interface/interface.py", line 223, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 324, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/home/b65580/Documents/clasificador_de_sentimientos/Prototypes/proto_env/lib/python3.8/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+Exception

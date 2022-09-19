@@ -1,0 +1,9 @@
+2022-07-06 18:43:40,429 INFO    MainThread:29221 [internal.py:wandb_internal():90] W&B internal server running at pid: 29221, started at: 2022-07-06 18:43:40.428829
+2022-07-06 18:43:40,431 INFO    WriterThread:29221 [datastore.py:open_for_write():75] open: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184339-h80m1s4y/run-h80m1s4y.wandb
+2022-07-06 18:43:40,435 DEBUG   SenderThread:29221 [sender.py:send():236] send: header
+2022-07-06 18:43:40,435 DEBUG   SenderThread:29221 [sender.py:send():236] send: run
+2022-07-06 18:43:40,706 WARNING MainThread:29221 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2022-07-06 18:43:41,443 INFO    SenderThread:29221 [dir_watcher.py:__init__():216] watching files in: /home/b65580/Documents/clasificador_de_sentimientos/Prototypes/wandb/run-20220706_184339-h80m1s4y/files
+2022-07-06 18:43:41,443 INFO    SenderThread:29221 [sender.py:_start_run_threads():815] run started: h80m1s4y with start time 1657154619
+2022-07-06 18:43:44,535 WARNING MainThread:29221 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2022-07-06 18:43:44,536 ERROR   MainThread:29221 [internal.py:wandb_internal():156] Internal process interrupted.

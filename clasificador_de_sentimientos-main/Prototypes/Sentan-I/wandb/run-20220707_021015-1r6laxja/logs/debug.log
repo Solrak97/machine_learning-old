@@ -1,0 +1,293 @@
+2022-07-07 02:10:15,651 INFO    MainThread:9391 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/.config/wandb/settings
+2022-07-07 02:10:15,651 INFO    MainThread:9391 [wandb_setup.py:_flush():76] Loading settings from /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/settings
+2022-07-07 02:10:15,652 INFO    MainThread:9391 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-07 02:10:15,652 INFO    MainThread:9391 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-07-07 02:10:15,652 INFO    MainThread:9391 [wandb_init.py:_log_setup():428] Logging user logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_021015-1r6laxja/logs/debug.log
+2022-07-07 02:10:15,652 INFO    MainThread:9391 [wandb_init.py:_log_setup():429] Logging internal logs to /home/solrak/Documents/clasificador_de_sentimientos/Prototypes/Sentan-I/wandb/run-20220707_021015-1r6laxja/logs/debug-internal.log
+2022-07-07 02:10:15,652 INFO    MainThread:9391 [wandb_init.py:init():462] calling init triggers
+2022-07-07 02:10:15,652 INFO    MainThread:9391 [wandb_init.py:init():465] wandb.init called with sweep_config: {}
+config: {}
+2022-07-07 02:10:15,653 INFO    MainThread:9391 [wandb_init.py:init():481] re-initializing run, found existing run on stack: 2rlfr1ch
+2022-07-07 02:10:15,655 INFO    MainThread:9391 [wandb_run.py:_finish():1685] finishing run panas/Clasificador de sentimientos/2rlfr1ch
+2022-07-07 02:10:15,656 ERROR   MainThread:9391 [jupyter.py:save_history():427] Run pip install nbformat to save notebook history
+2022-07-07 02:10:15,656 INFO    MainThread:9391 [jupyter.py:save_ipynb():377] not saving jupyter notebook
+2022-07-07 02:10:15,656 INFO    MainThread:9391 [wandb_init.py:_jupyter_teardown():360] cleaning up jupyter logic
+2022-07-07 02:10:15,657 INFO    MainThread:9391 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-07-07 02:10:15,658 INFO    MainThread:9391 [wandb_run.py:_restore():1839] restore
+2022-07-07 02:10:16,644 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 756
+}
+
+2022-07-07 02:10:18,579 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 756
+}
+
+2022-07-07 02:10:19,282 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:19,385 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:19,487 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:19,588 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:19,690 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:19,792 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:19,894 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2394
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:19,996 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2394
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:20,099 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2394
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:20,201 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2394
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:20,304 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2394
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:20,471 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2394
+  total_bytes: 2394
+}
+
+2022-07-07 02:10:21,133 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 4
+}
+pusher_stats {
+  uploaded_bytes: 2394
+  total_bytes: 2394
+}
+local_info {
+}
+
+2022-07-07 02:10:22,367 INFO    MainThread:9391 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-07-07 02:10:22,367 INFO    MainThread:9391 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-07-07 02:10:22,371 INFO    MainThread:9391 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2022-07-07 02:10:22,380 INFO    MainThread:9391 [wandb_init.py:init():515] starting backend
+2022-07-07 02:10:22,381 INFO    MainThread:9391 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2022-07-07 02:10:22,384 INFO    MainThread:9391 [backend.py:ensure_launched():217] starting backend process...
+2022-07-07 02:10:22,387 INFO    MainThread:9391 [backend.py:ensure_launched():222] started backend process with pid: 10699
+2022-07-07 02:10:22,387 INFO    MainThread:9391 [wandb_init.py:init():525] backend started and connected
+2022-07-07 02:10:22,390 INFO    MainThread:9391 [wandb_run.py:_label_probe_notebook():1089] probe notebook
+2022-07-07 02:10:22,390 INFO    MainThread:9391 [wandb_run.py:_label_probe_notebook():1099] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-07-07 02:10:22,390 INFO    MainThread:9391 [wandb_init.py:init():596] updated telemetry
+2022-07-07 02:10:22,398 INFO    MainThread:9391 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2022-07-07 02:10:23,670 INFO    MainThread:9391 [wandb_run.py:_on_init():1924] communicating current version
+2022-07-07 02:10:23,981 INFO    MainThread:9391 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.12.21 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-07-07 02:10:23,981 INFO    MainThread:9391 [wandb_init.py:init():662] starting run threads in backend
+2022-07-07 02:10:24,014 INFO    MainThread:9391 [wandb_run.py:_console_start():1898] atexit reg
+2022-07-07 02:10:24,015 INFO    MainThread:9391 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.WRAP
+2022-07-07 02:10:24,015 INFO    MainThread:9391 [wandb_run.py:_redirect():1808] Wrapping output streams.
+2022-07-07 02:10:24,017 INFO    MainThread:9391 [wandb_run.py:_redirect():1832] Redirects installed.
+2022-07-07 02:10:24,017 INFO    MainThread:9391 [wandb_init.py:init():688] run started, returning control to user process
+2022-07-07 02:10:38,850 INFO    MainThread:9391 [wandb_run.py:_finish():1685] finishing run panas/clasificador_de_sentimientos-Prototypes_Sentan-I/1r6laxja
+2022-07-07 02:10:38,850 INFO    MainThread:9391 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2022-07-07 02:10:38,851 INFO    MainThread:9391 [wandb_run.py:_restore():1839] restore
+2022-07-07 02:10:39,536 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 756
+}
+
+2022-07-07 02:10:39,965 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 756
+}
+
+2022-07-07 02:10:40,716 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:40,818 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:40,920 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:41,022 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:41,124 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 756
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:41,227 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 1977
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:41,330 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2319
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:41,432 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2710
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:41,535 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2710
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:41,637 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2710
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:41,739 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2710
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:41,980 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2710
+  total_bytes: 2710
+}
+
+2022-07-07 02:10:42,690 INFO    MainThread:9391 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2710
+  total_bytes: 2710
+}
+local_info {
+}
+
+2022-07-07 02:10:43,940 INFO    MainThread:9391 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2022-07-07 02:10:43,941 INFO    MainThread:9391 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2022-07-07 02:10:43,947 INFO    MainThread:9391 [wandb_run.py:_footer_sync_info():3060] logging synced files
